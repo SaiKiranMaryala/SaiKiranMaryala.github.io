@@ -1994,7 +1994,7 @@ input, select, textarea {
 	}
 
 		.features section {
-			padding: 3.5em 3em 1em 7em ;
+			padding: 3.5em 3em 1em 3em ;
 			width: 50%;
 			border-top: solid 1px rgba(255, 255, 255, 0.15);
 			position: relative;
@@ -3907,3 +3907,52 @@ input, select, textarea {
 			}
 
 		}
+
+		.certification-item {
+			display: flex;
+			justify-content: center;
+			margin-bottom: 2em;
+			padding: 0 1em; /* Adjust padding to reduce left and right space */
+		}
+		
+		.certification-content {
+			display: flex;
+			align-items: flex-start;
+			max-width: 800px; /* Center the content and limit its width */
+			width: 100%;
+		}
+		
+		.certification-header {
+			display: flex;
+			align-items: center;
+			margin-bottom: 1em;
+		}
+		
+		.certification-image {
+			width: 50px; /* Adjust size as needed */
+			height: auto;
+			margin-right: 1em;
+			flex-shrink: 0;
+		}
+		
+		.certification-text {
+			flex-grow: 1;
+		}
+		
+		.skills-measured {
+			list-style-type: disc;
+			padding-left: 20px;
+			margin-top: 0; /* Align top of skills list with the heading */
+		}
+		
+		.certification-links {
+			display: flex;
+			justify-content: space-between;
+			margin-top: 1em;
+		}
+		
+		.certification-links .button {
+			margin: 0;
+		}
+								
+		
